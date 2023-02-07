@@ -233,6 +233,7 @@ a:hover{
 .ten1 .text{
     margin-top: 2%;
     display: none;
+    text-align: justify;
 }
 .ten1 span{
     float: right;
