@@ -340,10 +340,10 @@ a:hover{
         margin: auto;
     }
     .home {
-        padding-left: 70px;
+        padding-left: 50px;
     }
     .home .a{
-        padding-right: 12px;
+        padding-right: 5px;
     }
     .home .a a{
         font-size:x-small ;
