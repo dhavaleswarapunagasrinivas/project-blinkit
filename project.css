@@ -39,14 +39,14 @@ span{
     /* position: absolute; */
     display: flex;
     /* justify-content: space-around; */
-    padding-left: 650px;
+    padding-left: 620px;
     
     
 }
 .home .a{
     display: flex;
     align-items: center;
-    padding-right: 25px;
+    padding-right: 20px;
 }
 .home .nav1{
     width: 80%;
