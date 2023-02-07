@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+*{
+    margin:0px;
+}
+.navigation{
+    width: 100%;
+     height: 10.5vh;
+    background-color: yellow;
+    position:fixed;
+    z-index: 2;
+}
+.imag{
+    width: 100%;
+    height: 85vh;
+    background-image:url("https://images.medicaldaily.com/sites/medicaldaily.com/files/2015/01/26/employees.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+span{
+    color: green;
+}
+.logo{
+    display: flex;
+    color: black;
+}
+.door{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    /* width: 30%; */
+    height: 10vh;
+    font-size: 20px;
+   
+}
+.home{
+    width:40%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    right:3%;
+    top:30%;
+}
+.home .nav1{
+    width: 80%;
+    height: 85vh;
+    background-color: #d1e706;
+    margin-left: 5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0 5px 5px #333;
+}
+a:hover{
+    color: white;
+    text-shadow: 0 5px 2px black ;
+
+}
+.logoicon{
+    font-size: 35px;
+    color: black;
+    margin-right: 5px;
+}
+.navlogo{
+    font-size: 23px;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.second1 {
+    width:35%;
+    height: 70vh;
+    margin-top: 5%; 
+    overflow: hidden;
+}
+.second1 img{
+    transition: transform .4s;
+    height: 40vh;
+    width: 100%;
+   
+}
+.second1 img:hover{
+    transform: scale(1.1);
+   
+}
+.sec1{
+    font-size: 15px;
+    margin-top: 4%;
+}
+h2{
+    margin-top: 4%;
+}
+.sec2{
+    margin-top: 4%;
+    font-size: 18px;
+}
+@media screen and (max-width:576px) {
+    .navigation{
+        margin: auto;
+    }
+    .home {
+        padding-left: 0px;
+        margin-top: -2%;
+        /* margin-top: 5%; */
+        width:60%;
+
+    }
+    .home .a{
+        padding-right: 8px;
+    }
+    .home .a a{
+        font-size:x-small ;
+    }
+    .logo{
+        font-size:medium;
+    }
+    .imag{
+        width: 100%;
+    }
+}
+   </style>
+</head>
+<body>
+    <div class="blog">
+    <div class="imag">
+        <div class="navigation">
+       
+        <div class="door">
+            <h1 class="logo">blink<span>it</span></h1>
+        </div>
+        <div class="home">
+            <div class="a"><a href="index.html">Home</a></div>
+                    <div class="a"><a href="about.html" class="x">About</a></div>
+                    <div class="a"><a href="products.html">Products</a></div>
+                    <div class="a"><a href="partner.html">Partner</a></div>
+                    <div class="a"><a href="blog.html">Blog</a></div>
+                    <!-- <div><i class="navlogo fa-solid fa-bars"></i></div> -->
+        </div>
+        
+           
+    </div>
+    
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-12/Rukmini%20Bhattacharya-web1.png?itok=nH-uwY9u">
+        <p class="sec1">Rukmini Bhattacharya | December 22, 2022 | 5 mins read</p>
+        <h2>My journey at Blinkit: A series of epiphanies</h2>
+        <p class="sec2">Rukmini works as the City CEO of Bengaluru and heads growth. Here she recollects her journey transition from Zomato and fostering new experiences working with Blinkit</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-12/Drishti%20Makhija-web1.png?itok=xVq01xi8">
+            <p class="sec1">Tech Team | December 1, 2022 | 5 mins read</p>
+            <h2>First 6 Months at Blinkit: Drishti Makhija</h2>
+            <p class="sec2">Drishti is now a part of the tech team within the Product Listing and Search pod. She’s always had the inclination to work at scale while making an impact</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-11/desktop%20%3D%201920_552.png?itok=ioujSKOO">
+        <p class="sec1">Tech Team | November 22, 2022 | 7 mins read</p>
+        <h2>How love for food made me participate in HackaNoodle?</h2>
+        <p class="sec2">When asked, what brought me to the hackathon hosted by Blinkit, I said, "to have food"</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-10/Silent%20stores%20-%20Desktop_0.png?itok=pJWQFxcA">
+            <p class="sec1">Raghav Gupta | October 17, 2022 | 2 mins read</p>
+            <h2>Blinkit launches first silent store</h2>
+            <p class="sec2">Run by 20 specially abled individuals, Laxmi Nagar store is a first of its kind in our ecosystem</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-11/Ketakii%20Patni-web1.png?itok=eR8ayl1j">
+        <p class="sec1">Tech Team | November 17, 2022 | 5 mins read</p>
+        <h2>First 9 Months at Blinkit: Ketakii Patni</h2>
+        <p class="sec2">Ketakii Patni works as Senior Executive at Blinkit. She joined us 9 months ago and has played a key role in Consumer Search Content ever since</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-11/in-focus_Avi%20Raghuwanshi_web.png?itok=6rUOepiB">
+            <p class="sec1">Tech Team | November 10, 2022 | 4 mins read</p>
+            <h2>In Focus: Avi Raghuwanshi</h2>
+            <p class="sec2">Avi joined us on our instant delivery journey in July 2022 and previously worked on upselling and cross selling through product listing pages during his first two months</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-08/women%20in%20tech-ratula%20chakraborty-web.png?itok=FQ-ZMHdq">
+        <p class="sec1">Tech Team | August 18, 2022 | 6 mins read</p>
+        <h2>Women in Tech: Ratula Chakraborty</h2>
+        <p class="sec2">As a woman working in the technology space, one can acquire leadership, empathy, courage, and a wealth of coding skills from many powerful women</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-08/abhishek%20kashyap_web.png?itok=PQB3-G2p">
+            <p class="sec1">Tech Team | August 25, 2022 | 5 mins read</p>
+            <h2>First 3 Months at Blinkit: Abhishek Kashyap</h2>
+            <p class="sec2">Abhishek Aditya Kashyap is a Product Manager at Blinkit with four years of experience in the Data Science domain.</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-05/Blog%20Header.png?itok=yGcgj20J">
+        <p class="sec1">Tech Team | May 5, 2022 | 1 min read</p>
+        <h2>Eureka moments in meetings!</h2>
+        <p class="sec2">We asked some of our Tech members to share the epiphanic moments they experienced during team meeetings when clarity hit them</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-02/Valetine%27s%20Day%20Blog_Banner_Desktop.png?itok=gSKGstZg">
+            <p class="sec1">Aastha Batra | February 11, 2022 | 2 mins read</p>
+            <h2>Love for a good cause</h2>
+            <p class="sec2">As a part of this initiative we will donate 5% of the sale proceeds towards the socio-economic welfare for victims of sexual abuse and domestic violence</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-07/in-focus_Aditya%20%20Shaha_web.png?itok=3p8GdgL0">
+        <p class="sec1">Tech Team | July 14, 2022 | 6 mins read</p>
+        <h2>In Focus: Aditya Shaha</h2>
+        <p class="sec2">Aditya began his journey at Blinkit almost 3.5 years ago, as an intern in the Data Science and Engineering team, even before graduating from college</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-09/women%20in%20tech-kirti%20gupta-web.png?itok=UmWW_R0T">
+            <p class="sec1">Tech Team | September 8, 2022 | 6 mins read</p>
+            <h2>Women in Tech: Kirti Gupta</h2>
+            <p class="sec2">To break away from any bias, you have to ensure that it’s your work quality and results that define you, not your gender</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-07/rahul%20mahamna_web.png?itok=lka55Bt7">
+        <p class="sec1">Team Blinkit | July 11, 2022 | 3 mins read</p>
+        <h2>My Journey So Far: Rahul Mahamna</h2>
+        <p class="sec2">Starting out as a delivery partner in 2015, Rahul raised to the position of operations manager, currently taking care of East Delhi area</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-06/web.png?itok=dIN4505u">
+            <p class="sec1">Tech Team | June 23, 2022 | 6 mins read</p>
+            <h2>In Focus: Utkarsh Shukla</h2>
+            <p class="sec2">Having the ability to solve problems and make decisions, not just through hunches or intuitions that one develops over time, matters the most</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-05/eeksha%20sharma_web.png?itok=0NmjnsM_">
+        <p class="sec1">Team Blinkit | May 2, 2022 | 3 mins read</p>
+        <h2>My Journey So Far: Eeksha Sharma</h2>
+        <p class="sec2">A story about loss and bouncing back from a tragedy in life, to find a direction that shapes one's future for good</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-04/gaurav%20jamini_web.png?itok=_4SZWZMM">
+            <p class="sec1">Team Blinkit | April 25, 2022 | 3 mins read</p>
+            <h2>My Journey So Far: Gaurav Jamini</h2>
+            <p class="sec2">A story about fighting against odds and growing in a big city, only to find a spot of acceptance and belonging in a startup</p>
+            </div>
+</div>
+<div class="second">
+    <div class="second1">
+        <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-03/women%20in%20tech-ekta%20garg-web%20%281%29.png?itok=W0uNiUkS">
+        <p class="sec1">Tech Team | March 31, 2022 | 8 mins read</p>
+        <h2>Women in Tech: Ekta Garg</h2>
+        <p class="sec2">Ekta currently works on the experience that a customer entails after checkout at Blinkit and here, she shares her journey as a woman in technology</p>
+        </div>
+        <div class="second1">
+            <img src="https://blinkit.com/blog/sites/default/files/styles/banner_thumbnail/public/2022-03/Karnvir%20Yadav_web.png?itok=RyCeU0BC">
+            <p class="sec1">Team Blinkit | March 28, 2022 | 3 mins read</p>
+            <h2>My Journey So Far: Karnvir Yadav</h2>
+            <p class="sec2">When a circle has to complete, it has to complete. Here's one such heartwarming story about a designer who is back home where it all started</p>
+            </div>
+</div>
+</div>
+</body>
+</html>

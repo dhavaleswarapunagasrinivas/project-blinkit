@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+        margin:0px;
+    }
+    .navigation{
+        width: 100%;
+         height: 10.5vh;
+        background-color:yellow;
+        position:fixed;
+        z-index: 2;
+    }
+    span{
+        color: green;
+    }
+    .logo{
+        display: flex;
+        color: black;
+    }
+    .imag{
+    width: 100%;
+    height: 85vh;
+    background-image:url("https://www.lakewinds.coop/wp-content/uploads/2016/09/groceries-cropped.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.door{
+     position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 30%;
+        height: 10vh;
+        font-size: 20px;
+       
+}
+    .home{
+        width:40%;
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        right:3%;
+        top:30%;
+    }
+    .home .nav1{
+        width: 80%;
+        height: 85vh;
+        background-color: #d1e706;
+        margin-left: 5%;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        font-weight: 700;
+        font-size: 18px;
+        text-shadow: 0 3px 5px #333;
+    }
+    a:hover{
+        color:whitesmoke;
+        text-shadow: 0 5px 2px black ;
+    
+    }
+    .door p{
+        position: absolute;
+        top: 6%;
+        left: 60%;    
+    }
+    .door input{
+        width: 400px;
+        height:5vh;
+        
+    }
+    .door i{
+        position: absolute;
+        top: 25%;
+        left: 90%;
+    }
+    .mycart button{
+        width: 80px;
+        height: 45px;
+        background-color:green;
+        margin-top: -10%;
+        color: white;
+        border-radius: 10px;
+    }
+    .second{
+        margin-left: 1%;
+    margin-top: 3%;
+    }
+    .second img{
+        width: 99%;
+    }
+    .third{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .fourth{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 3%;
+        margin-left: 1%;
+    }
+    .fifth{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        margin-top: 3%;
+        margin-left: 1%;
+        
+    }
+    .fifth1{
+        width: 88%;
+        height: 39vh;
+        border: 2px solid gray;
+        border-radius: 7px;
+        background-color:antiquewhite;
+    }
+    .fifth1 img{
+        padding-top: 3px;
+        width: 100%;
+        height: 19vh;
+    }
+    .fifth1 p{
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+    .fifth1 .rupee{
+        margin-top: 10%;
+    }
+    .rupee span{
+        margin-left: 15%;
+        
+        
+    }
+    .rupee button{
+        width: 50%;
+        height: 5vh;
+        border-color: green;
+        color: green;
+        border-radius: 7px;
+    }
+    h2{
+        margin-top: 5%;
+        font-size: 30px;
+        margin-left: 2%;
+    }
+    .sixth{
+        margin-left: 8%;
+        width: 85%;
+    }
+    .sixth img{
+        width: 100%;
+    }
+    .sixth p{
+        word-spacing: 35px;
+        margin-top: 2%;
+        margin-left: 2%;
+        line-height: 1.6;
+        font-size: 16px;
+       
+    }
+    .seventh{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* background-color: #d1e706; */
+        margin-top: 3%;
+    }
+    .seventh1{
+        width: 150px;
+        height: 70px;
+        background-color:antiquewhite;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .seventh1 img{
+        width: 100px;
+        height: 60px;
+        margin-left: 13%;
+    }
+    .seventh1 h3{
+        margin-left: 13%;
+        margin-top: 20%;
+    }
+    .fifteen{
+    margin-top: 3%;
+    margin-left: 3%;
+    color: blue;
+}
+</style>
+<script>
+    var i=0
+    arr=["search eggs", "search chips","search vegetables"]
+    function fun(){
+        i=i+1
+        
+        if(i>=arr.length){
+            i=0
+        }
+        document.getElementById("searchtext").placeholder=arr[i]
+
+    }
+    setInterval(fun,1000)
+</script>
+</head>
+<body>
+    <body>
+        <div class="cont">
+            
+           <div class="imag">
+            <div class="navigation">
+           
+            <div class="door">
+                <h1 class="logo">blink<span>it</span></h1>
+                <p><input type="text" id="searchtext" placeholder="search butter"><i class="fa-solid fa-magnifying-glass"></i></p>
+                
+            </div>
+            <div class="home">
+                <div class="a">
+                        <a href="index.html">Home</a></div>
+                        <div class="a"><a href="about.html" class="x">About</a></div>
+                        <div class="a"><a href="products.html">Products</a></div>
+                        <div class="a"><a href="partner.html">Partner</a></div>
+                        <div class="a"><a href="blog.html">Blog</a></div>
+                       <div class="mycart"><button><i class="fa-solid fa-cart-shopping"></i> My cart</button></div>
+            </div>
+            
+               
+        </div>
+
+    </div>
+    <div class="second">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=1080/layout-engine/2022-05/Group-33704.jpg">
+    </div>
+    <div class="third">
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=360/layout-engine/2022-11/winter_PC-masthead-WEB.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=360/layout-engine/2022-11/Winter_FB-masthead-WEB.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=360/layout-engine/2022-10/gifting-store-Banner-Web.jpg"></div>
+    </div>
+    <div class="fourth">
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-12/paan-corner_web.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-2_10.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-3_9.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-4_9.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-5_4.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-6_5.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-7_3.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-8_4.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-9_3.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-10.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-11.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-13.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-12.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-15.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-16.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-18.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-20.png"></div>
+        <div><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/layout-engine/2022-11/Slice-19.png"></div>
+        
+    </div>
+    
+        <h2>Dairy, Bread & Eggs</h2>
+        <div class="fifth">
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/10491a.jpg">
+        <p>Nested Milkmaid<br>sweetend</p>
+        <p>380 g</p>
+        <p class="rupee">Rs.138<span><button onclick="fun(this)">Add</button></span></p>
+        
+        </div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/45533a.jpg?ts=1654845569">
+            <p>Amul masti<br> curd</p>
+            <p>400 g</p>
+            <p class="rupee">Rs.32<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/329500a.jpg?ts=1662964180">
+            <p>Amul fresh malai<br>paneer</p>
+            <p>200 g</p>
+            <p class="rupee">Rs.87<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/160a.jpg?ts=1654778815">
+            <p>Amul salted<br>butter</p>
+            <p>500 g</p>
+            <p class="rupee">Rs.265<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/19512a.jpg?ts=1647923044">
+            <p>Amul taaza toned<br>fresh milk</p>
+            <p>500 ml</p>
+            <p class="rupee">Rs.26<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/24194a.jpg?ts=1661157751">
+            <p>harvest brown<br>bread</p>
+            <p>400 g</p>
+            <p class="rupee">Rs.45<span><button onclick="fun(this)">Add</button></span></p></div>
+    </div>
+    <h2>Snacks & Munchies</h2>
+        <div class="fifth">
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/240092a.jpg?ts=1668146939">
+        <p>Lay's india's magic<br>masala chips</p>
+        <p>40 g</p>
+        <p class="rupee">Rs.20<span><button onclick="fun(this)">Add</button></span></p>
+        
+        </div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/432818a.jpg?ts=1669469997">
+            <p>Doritos cheese<br>nachos</p>
+            <p>60 g</p>
+            <p class="rupee">Rs.30<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/19293a.jpg?ts=1623312000">
+            <p>Haldiram's<br>bujia</p>
+            <p>1 kg</p>
+            <p class="rupee">Rs.244<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/67372a.jpg?ts=1655989914">
+            <p>kurkure masala<br>munch chips</p>
+            <p>82 g</p>
+            <p class="rupee">Rs.20<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/54056a.jpg?ts=1660032971">
+            <p>Act II golden sizzle<br>popcorn</p>
+            <p>30 g</p>
+            <p class="rupee">Rs.10<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/481985a.jpg?ts=1653303157">
+            <p>haldigram's classic<br>penauts</p>
+            <p>380 g</p>
+            <p class="rupee">Rs.32<span><button onclick="fun(this)">Add</button></span></p></div>
+    </div>
+    <h2>Cold Drinks & Juices</h2>
+        <div class="fifth">
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/20143a.jpg?ts=1650622409">
+        <p>Real fruit<br>juice</p>
+        <p>1 l</p>
+        <p class="rupee">Rs.111<span><button onclick="fun(this)">Add</button></span></p>
+        
+        </div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/69250a.jpg?ts=1597315565">
+            <p>Real active<br>orange juice</p>
+            <p>1 l</p>
+            <p class="rupee">Rs.126<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/283a.jpg?ts=1657699524">
+            <p>Coco-cola soft<br>drink</p>
+            <p>750 ml</p>
+            <p class="rupee">Rs.38<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/366654a.jpg">
+            <p>Kinley soda water<br>with extra punch</p>
+            <p>2X750 ml</p>
+            <p class="rupee">Rs.39<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/374687a.jpg?ts=1560326417">
+            <p>String energy<br>drink</p>
+            <p>250 ml</p>
+            <p class="rupee">Rs.20<span><button onclick="fun(this)">Add</button></span></p></div>
+        <div class="fifth1"><img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=135/app/images/products/sliding_image/385a.jpg?ts=1667218899">
+            <p>Red bull energy<br>drink</p>
+            <p>250 ml</p>
+            <p class="rupee">Rs.125<span><button onclick="fun(this)">Add</button></span></p></div>
+    </div>
+    <h2>Brands</h2>
+    <div class="sixth">
+    <p><img src="https://businessfightspoverty.org/wp-content/uploads/2013/04/Oxfam_BehindtheBrands_homepage.jpg"></p>
+    </div>
+    <h2>Payment partners</h2>
+    <div class="seventh">
+        <!-- <div class="seventh1"><img src="https://blinkit.com/901d69d548e0feba09ab.png"></div> -->
+        <div class="seventh1"><img src="https://blinkit.com/3a1a66a7bf0fbfd26ab8.png"></div>
+        <div class="seventh1"><img src="https://blinkit.com/989b1a681e449677450c.png"></div>
+        <div class="seventh1"><img src="https://blinkit.com/22eb5fa23ba3b6609751.png"></div>
+        <div class="seventh1"><img src="https://blinkit.com/ba6f4bc10ee998b5ef4a.png"></div>
+        <div></div>
+        <div></div>
+        <div class="seventh1"><h3>Net banking</h3></div>
+        <div class="seventh1"><h3>Cash delivery</h3></div>
+        <div class="seventh1"><h3>blinkit cash</h3></div>
+    </div>
+    <div class="fifteen">
+        <p>By continuing past this page you agree to our Terms, Cookie policy and Privacy policy. All trademarks are properties of their respective owners. © Blink Commerce<br> Private Limited (formerly known as Grofers India Private Limited), 2016-2022</p>
+    </div>
+        </div>
+</body>
+</html>

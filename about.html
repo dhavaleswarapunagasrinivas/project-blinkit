@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="about.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        *{
+    margin:0px;
+}
+.navigation{
+    width: 100%;
+     height: 10.5vh;
+    background-color: yellow;
+    position:fixed;
+    z-index: 2;
+    /* display: flex; */
+    
+}
+.imag{
+    width: 100%;
+    height: 85vh;
+    background-image:url("https://blinkit.com/careers/sites/default/files/2021-12/career-sustainability.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+span{
+    color: green;
+}
+.logo{
+    display: flex;
+    color: black;
+}
+.door{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    /* width: 30%; */
+    height: 10vh;
+    font-size: 20px;
+   
+}
+.home{
+    /* width:40%;
+    position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    right:3%;
+    margin-top:2%;
+    padding-left: 650px;
+}
+.home .nav1{
+    width: 80%;
+    height: 85vh;
+    background-color: #d1e706;
+    margin-left: 5%;
+}
+.home .a{
+    display: flex;
+    align-items: center;
+    /* padding-right: 30px; */
+}
+a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0 5px 5px #333;
+}
+a:hover{
+    color: white;
+    text-shadow: 0 5px 2px black ;
+
+}
+.logoicon{
+    font-size: 35px;
+    color: black;
+    margin-right: 5px;
+}
+.navlogo{
+    font-size: 23px;
+}
+.second{
+   margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.stext{
+    font-size: 20px;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+.third{
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.third1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.third p{
+    font-size: 17px;
+    margin-top: 2%;
+}
+.lt1{
+    width: 85%;
+    height: 46vh;
+    background-color:antiquewhite;
+    margin-top: 10%;
+}
+.lt1 img{
+    width: 100%;
+    height: 39vh;
+}
+.lt1 h2{
+   text-align: center;
+   margin-top: 2%;
+}
+.ten hr{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+.twelve1{
+    font-size: 18px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.twelve1 p{
+    margin-top: 3%;
+}
+.thirteen{
+    line-height: 3;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:linear-gradient(45deg,rgba(245, 141, 175, 0.253), rgba(0, 255, 149, 0.13), rgba(72, 255, 0, 0.342), rgba(175, 174, 174, 0.493), rgb(204, 59, 204));
+}
+.thirteen1{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.thirteen1 a{
+    color:#333;
+    font-size: 15px;
+    text-shadow: none;
+}
+.thirteen a:hover{
+    text-decoration: underline;
+    text-shadow: none;
+}
+.thirteen3 i{
+    font-size: 25px;
+}
+.thirteen3{
+    width: 8%;
+    
+}
+.thirteen3 div{
+    width: 75%;
+}
+ .thirteen3 div .fac{
+    position: relative;
+    left: 30%;
+    top: 5%;
+    color: blue;
+}
+.thirteen3 div .fa-square-instagram{
+    background: -webkit-linear-gradient(45deg, #d1e706, rgb(235, 12, 12) 35%, rgb(255, 0, 191) 100%,pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thirteen3 div .y{
+    color:turquoise;
+}
+.thirteen4 i{
+    font-size: 20px;
+    color:tomato;
+    margin-left: -10%;
+}
+.thirteen4 .n{
+    color: orchid;
+}
+.thirteen4 button{
+    width: 60%;
+    height: 6vh;
+    background-color:bisque;
+    border-radius: 10px;
+}
+.twelve2 hr{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fourteen hr{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fifteen{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: blue;
+}
+@media screen and (max-width:576px) {
+    .home {
+        padding-left: 55px;
+    }
+    .home .a{
+        padding-right: 8px;
+        margin-left: 5%;
+
+    }
+    .home .a a{
+        font-size:x-small ;
+    }
+    .logo{
+        font-size:medium;
+    }
+    .imag{
+        width: 100%;
+    }
+}
+    </style> -->
+</head>
+<body>
+    <body>
+    <div class="cont">
+        <div class="imag">
+            <div class="navigation">
+           
+            <div class="door">
+                <h1 class="logo">blink<span>it</span></h1>
+            </div>
+            <div class="home">
+                <div class="a"><a href="index.html">Home</a></div>
+                        <div class="a"><a href="about.html" class="x">About</a></div>
+                        <div class="a"><a href="products.html">Products</a></div>
+                        <div class="a"><a href="partner.html">Partner</a></div>
+                        <div class="a"><a href="blog.html">Blog</a></div>
+            </div>
+            
+               
+        </div>
+        
+    </div>
+     <div class="second">
+        <h1>100x retail in 5 years</h1>
+        <p class="stext">Imagine needing something when you are at home and getting it before you have tied your shoelaces to step out. We are revolutionizing e-commerce by making the stuff most important to you, available to you in a blink of your eye.</p>
+        <p class="stext">We want our customers to focus on the more important things for themselves and not need to plan for the little things that life needs on an everyday basis. We are here to get your chores out of your way. </p>
+        <p class="stext">Our mission is – “instant commerce indistinguishable from magic”. Using a backbone of technology, data sciences, and rich customer insights, we've built a dense and fast network of partner stores enabling lightning fast deliveries in minutes. </p>
+        <p class="stext">In order to become one of the most important e-retail companies of our generation, we need builders who can think on their feet, take extreme ownership and commit to making outcomes happen. If you are ambitious, smart, and don’t have an ego about it, we’d love to hear from you.  </p>
+        <p class="stext">Opportunities to create $100 billion businesses in India are rare. We are on the way and looking for the hungry.</p>
+        <p class="stext"><span>"Blinkit" is owned & managed by "Blink Commerce Private Limited” (formerly known as Grofers India Private Limited) and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”</span></p>    
+    </div>
+    <div class="third">
+        <h1>Some of the people building Blinkit</h1>
+        <div class="third1">
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/albi.png"><h2>Albinder Dhindsa</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/rishi.png"><h2>Rishi Arora</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-10/image.png"><h2>Sajal Gupta</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/anish.png"><h2>Anish Srivastava</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/anumeta.png"><h2>Anumeha Mittal</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/ashish.png"><h2>Ashish Goel</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-07/image.png"><h2>Gayatri Mathur</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/keshav.png"><h2>Keshav Gupta</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-03/prakriti.png"><h2>Prakriti Khemka</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-09/Dhruv%20Bhutiani.jpeg"><h2>Dhruv Bhutiani</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-08/image%20%281%29.png"><h2>Priya Choubey</h2></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-08/image_0.png"><h2>Chakrapani R</h2></div>
+            <div></div>
+            <div class="lt1"><img src="https://blinkit.com/careers/sites/default/files/2022-08/image%20%282%29.png"><h2>Vaibhav Gupta</h2></div>
+
+        </div>
+        <p>For media inquiries, write to us <span>press@blinkit.com</span> </p>
+        <p>For all other inquiries, please contact us at <span>info@blinkit.com</span></p>
+        <p><span>Operational address:</span> Plot No 64H, Sector 18, Gurugram, Haryana-122001</p>
+    </div>
+    <div class="eleven"><hr></div>
+<div class="twelve">
+    <div class="twelve1">
+    <h4>#1 instant delivery service in India</h4>
+    <p>Shop on the go and get anything delivered in minutes. Buy everything from groceries to fresh fruits & vegetables, cakes and bakery items, to<br> meats & seafood, cosmetics, mobiles & accessories, electronics, baby care products and much more. We get it delivered at your doorstep in<br>the fastest and the safest way possible.</p>
+</div>
+<div class="twelve1">
+    <h4>single app for all your daily needs</h4>
+    <p>Order thousands of products at just a tap - milk, eggs, bread, cooking oil, ghee, atta, rice, fresh fruits & vegetables, spices, chocolates, chips,<br> biscuits, Maggi, cold drinks, shampoos, soaps, body wash, pet food, diapers, electronics, other organic and gourmet products from your<br> neighbourhood stores and a lot more.</p>
+</div>
+<div class="twelve1">
+    <h4>order online on doordash to enjoy instant delivery magic</h4>
+    <p>Cities we currently serve: Ahmedabad, Bengaluru, Chandigarh, Chennai, Delhi, Faridabad, Gurgaon, Haridwar, HR-NCR, Hyderabad, Jaipur,<br> Jalandhar, Kanpur, Kolkata, Lucknow, Ludhiana, Meerut, Mohali, Mumbai, Panchkula, Pune, UP-NCR, Vadodara</p>
+</div>
+</div>
+<div class="ten">
+    <hr>
+</div>
+   <div class="twelve2"><hr></div>
+<div class="thirteen">
+    <div class="thirteen1">
+        <h3>Company</h3>
+        <a href=""><p>About</p></a>
+        <a href=""><p>Careers</p></a>
+        <a href=""><p>Blog</p></a>
+        <a href=""><p>Press</p></a>
+        <a href=""><p>Lead</p></a>
+        <a href=""><p>Values</p></a>
+    
+    </div>
+    <div class="thirteen1">
+        <h3> Consumers</h3>
+        <a href=""><p>Privacy</p></a>
+        <a href=""><p>Terms</p></a>
+        <a href=""><p>FAQs</p></a>
+        <a href=""><p>Security</p></a>
+        <a href=""><p>Mobile</p></a>
+        <a href=""><p>Contact</p></a>
+    </div>
+    <div class="thirteen1">
+        <h3> Partners</h3>
+        <a href=""><p>Express</p></a>
+        <a href=""><p>Seller</p></a>
+        <a href=""><p>Spotlight</p></a>
+        <a href=""><p>Warehouse</p></a>
+        <a href=""><p>Deliver</p></a>
+        <a href=""><p>Partner</p></a>
+    </div>
+    <hr>
+    <div class="thirteen3">
+        <h3>Follow us</h3>
+        <div>
+        <i class="x fa-brands fa-square-instagram"></i>
+        <i class="fac fa-brands fa-facebook"></i>
+        <i class="y fa-brands fa-square-twitter"></i>
+        <i class="fac fa-brands fa-linkedin"></i>
+    </div>
+    </div>
+    <hr>
+    <div class="thirteen4">
+        <h3>Download App</h3>
+        <a href="https://play.google.com/store/apps/details?id=com.grofers.customerapp&hl=en_IN&gl=US"><button><i class="fa-brands fa-google-play"></i>Google play</button></a>
+        <a href="https://apps.apple.com/th/app/grofers-online-grocery/id960335206"><button><i class="n fa-brands fa-apple"></i>App Store</button></a>
+    </div>
+</div>
+<div class="fourteen"><hr></div>
+<div class="fifteen">
+    <p>By continuing past this page you agree to our Terms, Cookie policy and Privacy policy. All trademarks are properties of their respective owners. © Blink Commerce<br> Private Limited (formerly known as Grofers India Private Limited), 2016-2022</p>
+</div>
+    
+
+
+
+
+       </div>
+        
+</body>
+</html>

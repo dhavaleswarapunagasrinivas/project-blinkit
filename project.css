@@ -1,0 +1,403 @@
+*{
+    margin:0px;
+}
+.navigation{
+    width: 100%;
+     height: 10.5vh;
+    background-color: yellow;
+    position:fixed;
+    z-index: 2;
+    display: flex;
+}
+.imag{
+    width: 100%;
+    height: 85vh;
+    background-image:url("https://i.ytimg.com/vi/iBKuGlgBQHU/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+span{
+    color: green;
+}
+.logo{
+    display: flex;
+    color: black;
+}
+.door{
+    display:flex;
+    align-items: center;
+    /* width: 30%; */
+    height: 10vh;
+    font-size: 20px;
+   
+}
+.home{
+    /* width:40%; */
+    /* position: absolute; */
+    display: flex;
+    /* justify-content: space-around; */
+    padding-left: 650px;
+    
+    
+}
+.home .a{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
+.home .nav1{
+    width: 80%;
+    height: 85vh;
+    background-color: #d1e706;
+    margin-left: 5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0 5px 5px #333;
+}
+a:hover{
+    color: white;
+    text-shadow: 0 5px 2px black ;
+
+}
+.logoicon{
+    font-size: 35px;
+    color: black;
+    margin-right: 5px;
+}
+.navlogo{
+    font-size: 23px;
+}
+.frontpage{
+    color: blueviolet;
+    position: absolute;
+    bottom: 20%;
+    height: 10vh;
+}
+.title{
+    position: relative;
+    left: 97%;
+    bottom:12%;
+
+}
+.mlogo{
+    position: relative;
+    left: 96%;
+    bottom: 174px;
+    font-size: 25px;
+    color: black;
+}
+.second{
+   margin-left: 10%;
+    margin-top: 3%;
+}
+.stext{
+    font-size: 20px;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+.third{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.third video{
+    height: 50vh;
+    margin-top: 5%;
+    border-radius: 8px;
+    border: 2px solid black;
+    
+}
+.fourth{
+    margin-top: 3%;
+    
+}
+.fourth img{
+    width: 86%;
+    margin-top: 5%;
+}
+.fourth h3{
+    margin-top: 5%;
+}
+.fourth p{
+    font-size: 19px;
+    width: 100%;
+    margin-top: 5%;
+    line-height: 1.5;
+}
+.fourth1{
+    width: 82%;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 2%;
+}
+.fourthMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fourthMain h1,.fourth1{
+    margin-left: 10%;
+}
+.fourthMain h1{
+    margin-top: 5%;
+}
+.fifth h2{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.fifth1{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 19px;
+}
+.sixth img{
+    width: 77%;
+    height: 50vh;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.seventh2{
+    width: 82%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-left:10%;
+    margin-top: 2%;
+}
+
+.seventh4 img{
+    width: 86%;
+    margin-top: 5%;
+}
+.seventh4 h3{
+    margin-top: 5%;
+}
+.seventh4 p{
+    font-size: 19px;
+    width: 100%;
+    margin-top: 5%;
+    line-height: 1.5;
+}
+.seventh h1{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.eight{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.nine{
+    /* position: relative; */
+    width:950px;
+    height: 400px;
+    text-align: center;
+    margin-left: 11%;
+    margin-top: 3%;
+    
+}
+.rt{
+    position: absolute;
+    top: 50%;
+    color: red;
+    right: -45px;
+    font-size: 30px;
+}
+.lt{
+    position:absolute;
+    top: 50%;
+    color: red;
+    left: -45px;
+    font-size: 30px;
+}
+.ten h1{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.ten hr{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+.ten1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.ten1 .text{
+    margin-top: 2%;
+    display: none;
+}
+.ten1 span{
+    float: right;
+    color: #333;
+}
+
+.eleven hr{
+    margin-top: 3%;
+}
+.twelve1{
+    font-size: 18px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.twelve1 p{
+    margin-top: 3%;
+}
+.thirteen{
+    /* line-height: 3; */
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:linear-gradient(45deg,rgba(245, 141, 175, 0.253), rgba(0, 255, 149, 0.13), rgba(72, 255, 0, 0.342), rgba(175, 174, 174, 0.493), rgb(204, 59, 204));
+}
+.thirteen1{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+ line-height: 3;
+}
+
+.thirteen1 a{
+    color:#333;
+    font-size: 15px;
+    text-shadow: none;
+}
+.thirteen a:hover{
+    text-decoration: underline;
+    text-shadow: none;
+}
+.thirteen3 i{
+    font-size: 25px;
+    line-height: 2;
+}
+.thirteen3{
+    width: 8%;
+    
+    
+}
+.thirteen3 div{
+    width: 75%;
+}
+ .thirteen3 div .fac{
+    position: relative;
+    left: 30%;
+    top: 5%;
+    color: blue;
+}
+.thirteen3 div .fa-square-instagram{
+    background: -webkit-linear-gradient(45deg, #d1e706, rgb(235, 12, 12) 35%, rgb(255, 0, 191) 100%,pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thirteen3 div .y{
+    color:turquoise;
+}
+.thirteen4 i{
+    font-size: 20px;
+    color:tomato;
+    margin-left: -10%;
+}
+.thirteen4 .n{
+    color: orchid;
+}
+
+.thirteen4 button{
+    width: 60%;
+    height: 6vh;
+    background-color:bisque;
+    border-radius: 10px;
+    margin-top: 20%;
+    
+}
+.twelve2 hr{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fourteen hr{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fifteen{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: blue;
+}
+@media screen and (max-width:576px) {
+    .navigation{
+        margin: auto;
+    }
+    .home {
+        padding-left: 90px;
+    }
+    .home .a{
+        padding-right: 12px;
+    }
+    .home .a a{
+        font-size:x-small ;
+    }
+    .logo{
+        font-size:medium;
+    }
+    .imag{
+        width: 100%;
+    }
+    .nine img{
+        width: 95%;
+        position: absolute;
+        left: 2.5%;
+    }
+    .thirteen{
+        width: 95%;
+        margin-left: 2%;
+      
+    }
+    .thirteen1{
+        width: 83%;
+        line-height: 3;
+    }
+    .thirteen1 a{
+        font-size: 10px;
+    }
+    .thirteen h3{
+        font-size: 15px;
+        margin-top: 1%;
+    }
+    .thirteen3{
+        width: 55%;
+    }
+    .thirteen4 a{
+        width: 40%;
+    }
+    .thirteen4 i{
+        font-size: 15px;
+    }
+    .thirteen4 button{
+        width: 100%;
+        height: 8vh;
+    }
+    .fifth1{
+       
+        font-size: 16px;
+    }
+    .nine{
+        width: 100px;
+    }
+
+    
+    
+}
+
+
