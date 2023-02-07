@@ -112,6 +112,9 @@ a:hover{
     width: 100%;
     height: 39vh;
 }
+.lt1 img:hover{
+    transform: scale(1.1);
+}
 .lt1 h2{
    text-align: center;
    margin-top: 2%;
